@@ -1,5 +1,6 @@
 # TKPM-nhom5
 # Cấu trúc thư mục đồ án đề xuất
+```
 TKPM-NHOM5/
 ├── public/                     # Tệp tĩnh (favicon, hình ảnh...)
 ├── src/
@@ -20,4 +21,5 @@ TKPM-NHOM5/
 ├── README.md                     # Mô tả project
 ├── vite.config.js                 # Config cho Vite
 └── eslint.config.js             # Nơi hỗ trợ phát hiện lỗi compile time
+```
 
