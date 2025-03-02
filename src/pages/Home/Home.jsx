@@ -7,6 +7,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import { ArrowRightIcon } from '@heroicons/react/24/solid';
 import FAQSection from './FAQSection';
+import logo from '../../assets/LOGO.svg';
 
 const Home = () => {
 
@@ -231,7 +232,7 @@ const Home = () => {
   return (
     <div className="relative flex flex-col min-h-screen">
       <nav className="flex z-10 items-center justify-start px-8 py-4 space-x-20 w-10/11">
-        <img className="w-1/5 h-auto" src="./LOGO.svg" alt="Enchanted Weddings Logo" />
+        <img className="w-1/5 h-auto" src={logo} alt="Enchanted Weddings Logo" />
 
         {/* Container chứa menu và icon: sử dụng inline-grid để co lại theo nội dung */}
         <div className="flex flex-1 items-center gap-x-70 bg-[#fdfcf9] border border-[#EAEAEA] w-3/5 sm:w-2/5 md:w-2/5 h-[50px] rounded-lg">
@@ -360,7 +361,7 @@ const Home = () => {
               <p>Discover the latest in dresses trends with our stunning collection must have been pieces. from sleek modern designs to  classics, these trending products are sure to elevate your special </p>
             </div>
 
-             <button className="border border-[#C3937C] bg-white text-[#C3937C] px-4 py-2 rounded-lg hover:bg-[#C3937C] hover:text-white transition">
+             <button className="border border-[#C3937C] bg-white text-[#C3937C] px-4 py-2 rounded-lg hover:bg-[#C3937C] hover:text-white transition cursor-pointer">
                   Explore more &gt;
             </button>
           </div>  
@@ -529,7 +530,7 @@ const Home = () => {
                 <p className="text-[#0C0C0C] text-sm text-center overflow-auto">
                   Đây là đoạn text dài. We offer a large assortment of clothing for you, with which you can create whatever you desire on your mind. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
                 </p>
-                <button className="border border-[#C3937C] bg-white text-[#C3937C] flex items-center justify-center gap-2 mt-2 px-4 py-2 rounded-lg hover:bg-[#C3937C] hover:text-white transition">
+                <button className="border border-[#C3937C] bg-white text-[#C3937C] flex items-center justify-center gap-2 mt-2 px-4 py-2 rounded-lg hover:bg-[#C3937C] hover:text-white transition cursor-pointer">
                   <img src="/icon3.png" alt="icon" className="w-4 h-4" />
                   Learn more &gt;
                 </button>
@@ -550,7 +551,7 @@ const Home = () => {
                 <p className="text-[#0C0C0C] text-sm text-center">
                   All sewing patterns are made to measure for your size measurements by our expert designers according to the unique technologies. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
                 </p>
-                <button className="border border-[#C3937C] bg-white text-[#C3937C] flex items-center justify-center gap-2 mt-2 px-4 py-2 rounded-lg hover:bg-[#C3937C] hover:text-white transition">
+                <button className="border border-[#C3937C] bg-white text-[#C3937C] flex items-center justify-center gap-2 mt-2 px-4 py-2 rounded-lg hover:bg-[#C3937C] hover:text-white transition cursor-pointer">
                   <img src="/icon3.png" alt="icon" className="w-4 h-4" />
                   Learn more &gt;
                 </button>
@@ -587,7 +588,7 @@ const Home = () => {
                 <p className="text-[#0C0C0C] text-sm text-center overflow-auto">
                   Instantly see how clothes look on you without the need for physical fitting. Our AI models adapt to various body types and sizes to provide a realistic fitting experience.
                 </p>
-                <button className="border border-[#C3937C] bg-white text-[#C3937C] flex items-center justify-center gap-2 mt-2 px-4 py-2 rounded-lg hover:bg-[#C3937C] hover:text-white transition">
+                <button className="border border-[#C3937C] bg-white text-[#C3937C] flex items-center justify-center gap-2 mt-2 px-4 py-2 rounded-lg hover:bg-[#C3937C] hover:text-white transition cursor-pointer">
                   <img src="/icon3.png" alt="icon" className="w-4 h-4" />
                   Learn more &gt;
                 </button>
@@ -604,7 +605,7 @@ const Home = () => {
                 <p className="text-[#0C0C0C] text-sm text-center">
                   Your dress consultation give you a chance to try on all different dress styles with the help of a professional consultant. Your dress consultation give you a chance to try on all different dress styles with the help of a professional consultant.
                 </p>
-                <button className="border border-[#C3937C] bg-white text-[#C3937C] flex items-center justify-center gap-2 mt-2 px-4 py-2 rounded-lg hover:bg-[#C3937C] hover:text-white transition">
+                <button className="border border-[#C3937C] bg-white text-[#C3937C] flex items-center justify-center gap-2 mt-2 px-4 py-2 rounded-lg hover:bg-[#C3937C] hover:text-white transition cursor-pointer">
                   <img src="/icon3.png" alt="icon" className="w-4 h-4" />
                   Learn more &gt;
                 </button>
@@ -666,7 +667,7 @@ const Home = () => {
                 to modern silhouettes. Follow these steps to easily rent your 
                 perfect dress for any occasion.
               </p>
-              <button className="bg-[#C3937C] border border-[#000000] text-white py-2 px-4 rounded-[100px] w-fit flex items-center gap-2 hover:bg-[#a97c64] transition-colors">
+              <button className="bg-[#C3937C] border border-[#000000] text-white py-2 px-4 rounded-[100px] w-fit flex items-center gap-2 hover:bg-[#a97c64] transition-colors cursor-pointer">
                 <span>Get Started</span>
                 <ArrowRightIcon className="w-5 h-5 inline-block align-middle" />
               </button>
@@ -812,7 +813,7 @@ const Home = () => {
       <div className="container mx-auto px-4 py-8">
         {/* Logo */}
         <div className="flex items-center justify-center mb-8">
-          <img className="w-1/5 h-auto" src="./LOGO.svg" alt="Enchanted Weddings Logo" />
+          <img className="w-1/5 h-auto" src={logo} alt="Enchanted Weddings Logo" />
         </div>
 
         {/* Nội dung chính */}
