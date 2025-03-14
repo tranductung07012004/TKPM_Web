@@ -1,5 +1,6 @@
 # TKPM-nhom5
 # Cấu trúc thư mục đồ án đề xuất
+# Thay đổi, ko thay đổi
 ```
 TKPM-NHOM5/
 ├── public/                     # Tệp tĩnh (favicon, hình ảnh...)
